@@ -10,6 +10,11 @@ html, body {
 }
 
 /* Background image and box section*/
+.class {
+    font-family: cursive;
+    text-align: center;
+}
+
 .tree-parallax {
     background-image: url('images/tree.jpg');
     min-height: 800px;
@@ -20,9 +25,10 @@ html, body {
 }
 
 .intro-box {
-    bottom: 0;
+    bottom: -0.9rem;
     width: 800px;
     padding: 3rem;
+    border-radius: 1rem;
     background-color:var(--white);
     color: var(--primary);
 }
@@ -201,11 +207,13 @@ footer p {
 
 .fa-facebook-f {
     color: #fff;
+    font-size: 1.5rem;
     margin-right: 1rem;
 }
 
-.fa-twitter {
+.fa-instagram {
     color: #fff;
+    font-size: 1.5rem;
 }
 
 #footer-menu-flex {
@@ -254,6 +262,11 @@ footer p {
     /* Intro box section */
     .intro-box {
         width: 320px;
+    }
+
+    .tree-parallax {
+        background-image: url('images/tree-small.jpg');
+        background-attachment: unset;
     }
 
     /* Card Section */
