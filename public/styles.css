@@ -5,8 +5,22 @@ html, body {
 }
 
 /* Nav */
+.navbar {
+    opacity: 0.7;
+}
+
 .nav-link {
     line-height: 1.5rem;
+}
+
+.logoFont {
+    font-family: fantasy;
+}
+
+.logoPosition {
+    display: flex;
+    flex-direction: column;
+    color: white;
 }
 
 /* Background image and box section*/
@@ -62,8 +76,11 @@ html, body {
 }
 
 .card-title {
-    white-space: nowrap;
     color: var(--primary);
+}
+
+u {
+    text-decoration-thickness: 3px;
 }
 
 
@@ -92,6 +109,14 @@ html, body {
 
 .about-section h1 {
     padding: 2rem 0;
+}
+
+.aboutBtn {
+    background-color: white;
+}
+
+.aboutBtn:hover {
+    color: primary;
 }
 
 /* Button */
@@ -178,10 +203,14 @@ html, body {
     color: #fff;
 }
 
+.titleStyle {
+    margin-bottom: 2rem;
+}
+
 /* Footer Section */
 
 footer {
-    background-color: #072136;
+    background-color: #399399;
     color: #d5d5d5;
     padding: 4rem;
 }
@@ -252,7 +281,7 @@ footer p {
 
 /*---Media Queries --*/
 
-@media (max-width: 768px) {
+@media (max-width: 977px) {
 
     /* Navbar */
     .navbar {
@@ -276,7 +305,7 @@ footer p {
     }
 
     .card-title {
-        white-space: normal;
+        font-size: 25px;
     }
 
     /* Jumbotrong About Section */
