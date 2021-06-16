@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bring To Light</title>
     <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Charmonman&display=swap" rel="stylesheet">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link href="styles.css" rel="stylesheet" />
@@ -36,12 +38,9 @@
         </ul>
       </div>
     </nav>
-
-    <div style="background-color: brown; color: white;">Due to website maintainence, some functions will not be working until June 16, 2021.</div>
-
     <!--- Image -->
     <div class="tree-parallax">
-      <div style="position: relative; top: 5rem; font-family: cursive; font-weight: bolder; text-align: center;">
+      <div style="position: relative; top: 5rem; font-family: 'Charmonman', fantasy, cursive;; font-weight: bolder; text-align: center;">
         <h2 >There is a field beyond all<br>
           notions of "right" and "wrong"</h2>
           <h2 style="font-size: 38px; margin-top: -0.5rem;">Come meet me there ~ Rumi</h2>
@@ -99,7 +98,7 @@
                 Reach out and I am happy to call you for a free consultation.</p>
             </div>
             <div class="button-flex">
-              <a href="#" class="btn btn-outline-primary">Book A Consultation</a>
+              <button class="btn btn-outline-primary" onclick="bookConsultation()">Book A Consultation</a>
             </div>
             <!-- <div class="button-flex">
               <a href="clients.html" class="btn btn-primary">More Info</a>
@@ -182,41 +181,41 @@
     </div>
 
     <!--- Contact -->
-    <form class="contact">
+    <form class="contact" onsubmit="sendEmail(event)">
       <span>CONTACT</span>
 
       <div class="form-first-section">
         <div>
           <label class="form-label">First Name</label>
-          <input class="form-control" />
+          <input id="firstName" class="form-control" />
         </div>
 
         <div>
           <label class="form-label">Last Name</label>
-          <input class="form-control" />
+          <input id="lastName" class="form-control" />
         </div>
       </div>
 
       <div class="form-second-section">
         <div>
           <label class="form-label" style="margin-left: -1rem">Email *</label>
-          <input class="form-control" required />
+          <input id="email" type="email" class="form-control" required />
         </div>
 
         <div>
           <label class="form-label" style="margin-left: -1rem">Subject</label>
-          <input class="form-control" />
+          <input id="subject" class="form-control" />
         </div>
       </div>
 
       <div class="form-third-section">
         <div>
           <label class="form-label">Message *</label>
-          <textarea class="form-control" required></textarea>
+          <textarea id="message" class="form-control" required></textarea>
         </div>
 
         <div>
-          <button type="button" class="btn btn-secondary" onclick="sendEmail()">
+          <button type="submit" class="btn btn-secondary">
             Submit
           </button>
         </div>
@@ -228,12 +227,10 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-4 contact-flex">
-            <a href="index.html" class="logo logoFont" style="font-size: 18px"
-              >Bring to Light Counselling</a
-            >
+            <a href="index.html" class="logo logoFont" style="font-size: 1.5rem;">Bring to Light Counselling</a>
             <div id="contact-alignment">
               <p class="contact-padding">Surrey, BC</p>
-              <p class="contact-padding">bringtolightcounselling@gmail.com</p>
+              <a href="mailto:bringtolightcounselling@gmail.com" class="contact-padding">bringtolightcounselling@gmail.com</a>
               <p class="contact-padding">604-323-6749 or Text</p>
             </div>
           </div>
