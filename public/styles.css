@@ -1,380 +1,380 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
 
-html, body {
-    font-family: normal avenir-lt-w01_35-light1475496,sans-serif;
+html,
+body {
+  font-family: normal avenir-lt-w01_35-light1475496, sans-serif;
 }
 
 /* Nav */
 .navbar-brand {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .nav-link {
-    line-height: 1.5rem;
+  line-height: 1.5rem;
 }
 
 .logoFont {
-    font-family: 'Charmonman', fantasy, cursive;
+  font-family: "Charmonman", fantasy, cursive;
 }
 
 .logoPosition {
-    display: flex;
-    flex-direction: column;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  color: white;
 }
 
 /* Background image and box section*/
 .class {
-    font-family: cursive;
-    text-align: center;
+  font-family: cursive;
+  text-align: center;
 }
 
 .tree-parallax {
-    background-image: url('images/tree.jpg');
-    min-height: 600px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("images/tree.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .intro-box {
-    bottom: -0.9rem;
-    width: 800px;
-    padding: 3rem;
-    border-radius: 1rem;
-    background-color:var(--white);
-    color: var(--primary);
+  bottom: -0.9rem;
+  width: 800px;
+  padding: 3rem;
+  border-radius: 1rem;
+  background-color: var(--white);
+  color: var(--primary);
 }
 
 .intro-box h5 {
-    font-weight: lighter;
-    text-align: center;
-    color: var(--gray-dark);
+  font-weight: lighter;
+  text-align: center;
+  color: var(--gray-dark);
 }
 
 .intro-box .heading {
-    display: flex;
-    justify-content: center;
-    margin: 1rem;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
 }
 
 .intro-box .heading h4 {
-    font-weight: 300;
-    font-size: 2.5rem;
+  font-weight: 300;
+  font-size: 2.5rem;
 }
 
 .intro-box .heading p {
-    font-size: 1.2rem;
-    margin: 1rem 0 0 1rem;
+  font-size: 1.2rem;
+  margin: 1rem 0 0 1rem;
 }
 /* Card Section */
 
 .card {
-    padding: 2rem 1rem;
-    text-align: center;
+  padding: 2rem 1rem;
+  text-align: center;
 }
 
 .card-title {
-    color: var(--primary);
+  color: var(--primary);
 }
 
 u {
-    text-decoration-thickness: 3px;
+  text-decoration-thickness: 3px;
 }
-
 
 /* Jumbotrong About Section */
 
 .about-section {
-    display: flex;
-    flex-direction: row-reverse;
-    background-image: url('images/sea.jpg');
-    min-height: 800px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: flex;
+  flex-direction: row-reverse;
+  background-image: url("images/sea.jpg");
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .about-section img {
-    width: 65%;
-    margin-top: -6rem;
+  width: 65%;
+  margin-top: -6rem;
 }
 
 .about-section div {
-    max-width: 40rem;
-    margin: auto;
+  max-width: 40rem;
+  margin: auto;
 }
 
 .about-section h1 {
-    padding: 2rem 0;
+  padding: 2rem 0;
 }
 
 .aboutBtn {
-    background-color: white;
+  background-color: white;
 }
 
 .aboutBtn:hover {
-    color: primary;
+  color: primary;
+}
+
+.p-bold {
+  font-weight: bold;
 }
 
 /* Button */
 
 .btn {
-    border-radius: 0;
-    padding: 1rem 3rem;
+  border-radius: 0;
+  padding: 1rem 3rem;
 }
 
 /* Contact Section */
 
 .contact {
-    background-color: #0C3C60;
-    color: #fff;
-    text-align: center;
-    padding-top: 3rem;
-    padding-bottom: 10rem;
+  background-color: #0c3c60;
+  color: #fff;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 10rem;
 }
 
 .contact span {
-    font-size: 36px;
-    font-weight: 300;
+  font-size: 36px;
+  font-weight: 300;
 }
 
 /* Form Section*/
 
 .form-first-section {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #0C3C60;
-    padding-top: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #0c3c60;
+  padding-top: 4rem;
 }
 
 .form-second-section {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .form-third-section {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .form-third-section textarea {
-    width: 51rem;
+  width: 51rem;
 }
 
 .form-third-section button {
-    background-color: #fff;
-    color: #0C3C60;
-    margin-top: 2rem;
-    width: 10rem;
-   
+  background-color: #fff;
+  color: #0c3c60;
+  margin-top: 2rem;
+  width: 10rem;
 }
 
 .form-third-section button:hover {
-    color: #fff;
-    background-color: #0C3C60;
-    border-color: #fff;
-
+  color: #fff;
+  background-color: #0c3c60;
+  border-color: #fff;
 }
 
 .form-label {
-    color: #fff;
-    display: block;
-    width: 5rem;
+  color: #fff;
+  display: block;
+  width: 5rem;
 }
 
 .form-control {
-    border-color: #fff;
-    width: 30rem;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-radius: 0;
-    background-color: transparent;
+  border-color: #fff;
+  width: 30rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  background-color: transparent;
 }
 
 .form-control:focus {
-    background-color: transparent;
-    box-shadow: none;
-    color: #fff;
+  background-color: transparent;
+  box-shadow: none;
+  color: #fff;
 }
 
 .titleStyle {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* Footer Section */
 
 footer {
-    background-color: #399399;
-    color: #d5d5d5;
-    padding: 4rem;
+  background-color: #399399;
+  color: #d5d5d5;
+  padding: 4rem;
 }
 
 footer a {
-    color: #fff;
+  color: #fff;
 }
 
 footer p {
-    padding-top: 2rem;
+  padding-top: 2rem;
 }
 
 .contact-padding {
-    margin-bottom: 0;
-    padding-top: 0;
-    font-size: 16px;
+  margin-bottom: 0;
+  padding-top: 0;
+  font-size: 16px;
 }
 
 .logo {
-    display: block;
-    padding-bottom: 2rem;
+  display: block;
+  padding-bottom: 2rem;
 }
 
 .fa-facebook-f {
-    color: #fff;
-    font-size: 1.5rem;
-    margin-right: 1rem;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-right: 1rem;
 }
 
 .fa-instagram {
-    color: #fff;
-    font-size: 1.5rem;
+  color: #fff;
+  font-size: 1.5rem;
 }
 
 #contact-alignment {
-    color: white;
+  color: white;
 }
 
 #footer-menu-flex {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    line-height: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  line-height: 2.2rem;
 }
 
 #footer-menu-flex a {
-    font-size: 16px;
-    color: rgba(255,255,255,.5);
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 #footer-menu-flex a:hover {
-    color: #fff;
+  color: #fff;
 }
 
 #socials-align {
-    text-align: center;
+  text-align: center;
 }
 
 #copyright {
-   display: flex;
-   justify-content: flex-end;
-   width: 62%;
-   padding-top: 5rem;
+  display: flex;
+  justify-content: flex-end;
+  width: 62%;
+  padding-top: 5rem;
 }
 
 #copyright h5 {
-    font-weight: 300;
-    font-size: 14px;
+  font-weight: 300;
+  font-size: 14px;
 }
-
 
 /*---Media Queries --*/
 
 @media (max-width: 977px) {
+  /* Navbar */
+  .navbar {
+    position: unset;
+  }
 
-    /* Navbar */
-    .navbar {
-        position: unset;
-    }
+  /* Intro box section */
+  .intro-box {
+    width: 320px;
+  }
 
-    /* Intro box section */
-    .intro-box {
-        width: 320px;
-    }
+  .tree-parallax {
+    background-image: url("images/tree-small.jpg");
+    background-attachment: unset;
+  }
 
-    .tree-parallax {
-        background-image: url('images/tree-small.jpg');
-        background-attachment: unset;
-    }
+  /* Card Section */
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    /* Card Section */
-    .container {
-        flex-direction: column;
-        align-items: center;
-    }
+  .card-title {
+    font-size: 25px;
+  }
 
-    .card-title {
-        font-size: 25px;
-    }
+  /* Jumbotrong About Section */
+  .jumbotron-padding {
+    padding: 0;
+  }
 
-    /* Jumbotrong About Section */
-    .jumbotron-padding {
-        padding: 0;
-    }
+  .about-section {
+    flex-direction: column;
+  }
 
-    .about-section {
-        flex-direction: column;
-    }
+  .about-section img {
+    margin-top: 0;
+  }
 
-    .about-section img {
-        margin-top: 0;
-    }
+  /* Client section */
+  .row {
+    flex-direction: column;
+  }
 
-    /* Client section */
-    .row {
-        flex-direction: column;
-    }
+  /* Form section */
 
-    /* Form section */
+  .form-first-section {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .form-first-section {
-        flex-direction: column;
-        align-items: center;
-    }
+  .form-second-section {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .form-second-section {
-        flex-direction: column;
-        align-items: center;
-    }
+  .form-third-section {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .form-third-section {
-        flex-direction: column;
-        align-items: center;
-    }
+  .form-third-section textarea {
+    width: 10rem;
+  }
 
-    .form-third-section textarea {
-        width: 10rem;
-    }
+  .form-label {
+    padding-top: 2rem;
+  }
+  .form-control {
+    width: 10rem;
+  }
 
-    .form-label {
-        padding-top: 2rem;
-    }
-    .form-control {
-        width: 10rem;
-    }
+  /* Footer section */
+  .contact-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
 
-    /* Footer section */
-    .contact-flex {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-bottom: 2rem;
-    }
+  .logo {
+    align-self: center;
+  }
 
-    .logo {
-        align-self: center;
-    }
+  #contact-alignment {
+    text-align: center;
+  }
 
-    #contact-alignment {
-        text-align: center;
-    }
-
-    #footer-menu-flex {
-        padding-bottom: 2rem;
-    }
+  #footer-menu-flex {
+    padding-bottom: 2rem;
+  }
 }
